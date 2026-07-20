@@ -15,7 +15,8 @@ def validate_password(password, password2):
          break
  except passwordsdonotmatch as e:
      print(f"{e.message}")
-     
+ except Exception as e:
+     print(f"{e.message}") 
  else:
      print("Passwords match")
 validate_password("password123", "password13")
