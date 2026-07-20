@@ -1,3 +1,4 @@
+# from passwordvalidator import validate_password
 class passwordsdonotmatch(Exception):
     def __init__(self, message="Passwords do not match"):
         self.message = message
@@ -7,6 +8,7 @@ class passwordvalidator:
         self.password1 = password1
         self.password2 = password2
     def validate_password(self):
+        # validate_password(self.password1, self.password2)
         t=0
         try:
           for x in self.password1:
