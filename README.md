@@ -14,7 +14,7 @@
 2. importingfunction.py and passwordvalidator.py uses direct import of the function
 
 ## Too many security mechanisms can ruin the total security of the system
-1. This XOR introduces a risk of exposing password hash of a any given user.
+1. This XOR introduces a risk of exposing password hash of any given user.
 
 
 
