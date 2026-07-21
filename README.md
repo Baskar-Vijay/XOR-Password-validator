@@ -9,9 +9,12 @@
 1.  malicious actor can still make use of the timing attack to discover the hash value.
   1. with the hash value,the hacker will compare against hash values of common passwords to discover the plaintext
   2. or the hacker may harvest now; decrypt later when the computing catches up.
-## implementation
+## Implementation
 1. classxor.py and classxor.py uses classes to call the logic or function
 2. importingfunction.py and passwordvalidator.py uses direct import of the function
+
+## Too many security mechanisms can ruin the total security of the system
+1. This XOR introduces a risk of exposing password hash of a any given user.
 
 
 
