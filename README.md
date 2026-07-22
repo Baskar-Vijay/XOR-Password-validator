@@ -15,6 +15,9 @@
 
 ## Too many security mechanisms can ruin the total security of the system
 1. This XOR introduces a risk of exposing password hash of any given user.
+## Alternatives
+1. A simple hash comparison method 
+``` hash == hash2 ```  
 
 
 
