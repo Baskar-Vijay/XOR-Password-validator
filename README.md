@@ -11,7 +11,7 @@
   2. or the hacker may harvest now; decrypt later when the computing catches up.
 ## Implementation
 1. classxor.py and classxor.py uses classes to call the logic or function
-2. importingfunction.py and passwordvalidator.py uses direct import of the function
+2. importingfunction.py and passwordvalidator.py uses calling function.
 
 ## Too many security mechanisms can ruin the total security of the system
 1. This XOR introduces a risk of exposing password hash of any given user.
