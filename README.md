@@ -18,7 +18,7 @@
 ## Alternatives
 1. A simple hash comparison method 
 ``` hash == hash2 ```  will be effective and more secure
-2. Force the system to use time to return  response after the set time has elapsed.
+2. Force the system to use time to return  response after the set time has elapsed from start of validation.
 
 
 
