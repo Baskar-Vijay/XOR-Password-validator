@@ -8,7 +8,7 @@
 ## disadvantages of SHA-256 in this system
 1.  malicious actor can still make use of the timing attack to discover the hash value.
   1. with the hash value,the hacker will compare against hash values of common passwords to discover the plaintext
-  2. or the hacker may harvest now; decrypt later when the computing catches up.
+  2. or the hacker may employ harvest now; decrypt later when the computing catches up.
 ## Implementation
 1. classxor.py and classxor.py uses classes to call the logic or function
 2. importingfunction.py and passwordvalidator.py uses calling function.
