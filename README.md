@@ -1,5 +1,5 @@
 # XOR-Password-validator 
-## Inherent dangers of using XOR to validate password or username
+## Inherent dangers of using XOR to validate passwords or usernames are:
 1. The system is prone to timing attack.The attacker can determine which bits  are correct by evaluating the time taken for response, given the passwords are compared directly in plaintext.
 ## How to leverage SHA-256 to make the password checking a tad bit secure
 ## benefits of SHA-256 
